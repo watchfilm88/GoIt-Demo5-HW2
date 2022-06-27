@@ -1,0 +1,122 @@
+:root {
+    --lightnes-color: #FFFFFF;
+    --darknest-color: #2F303A;
+    --bcg-color: #F5F4FA;
+    --dark-text-color: #212121;
+    --main-text-color: #757575;
+    --acent-color: #2196F3;
+    --hero-foote-bgc: #2F303A;
+    --section-our-team-bgc: #F5F4FA;
+
+    --main-weight-font: 400;
+    --hero-title-font: 900;
+    --title-font: 700;
+    --Header-footer-names-font: 500; 
+}
+
+body {
+    font-style: normal;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: var(--main-weight-font);
+    color: var(--main-text-color);
+        }
+
+.header{
+    font-weight: var(--Header-footer-names-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: var(--dark-text-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    color: var(--acent-color);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio {
+    color:  var(--main-text-color);
+}
+
+.adress-finish-main
+{
+    background-color: var(--hero-foote-bgc);
+}
+
+.button-hero{
+    background-color: var(--bcg-color);
+    font-weight: var(--title-font);
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
+
+    color: var(--dark-text-color);
+
+    cursor:pointer;    
+}
+
+.button-hero:hover,
+.button-hero:focus {
+    color: var(--lightnes-color)
+}
+
+.button-hero:hover {
+    background: var(--acent-color);
+}
+   
+
+.title {
+    font-weight: var(--title-font);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--dark-text-color);
+}
+
+.text-foto {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+
+
+.link{
+    font-weight: var(--Header-footer-names-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    }
+
+.link-adress{
+    color: var(--lightnes-color);
+    }
+
+.link:hover,
+.link:focus {
+    color: var(--acent-color)
+}
+
+ul{
+    list-style: none;
+}
+
+.contacts {
+    font-weight: var(--Header-footer-names-font);
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+}
+
